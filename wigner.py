@@ -107,7 +107,7 @@ psi = make_mixture(psi, mix)
 
 st.title("Wigner Function Plotter")
 
-#GRAFICO
+#--- PLOT ---
 
 with st.spinner(text='Plotting...'):
     st.pyplot(wignerplot(psi), use_container_width=True)
